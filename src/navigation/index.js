@@ -58,17 +58,17 @@ const Auth = createStackNavigator();
 export const AuthStack = () => {
   return (
     <Auth.Navigator screenOptions={screenOptions}>
-      {/* <Auth.Screen
+      <Auth.Screen
         name={Routes.Locations}
         component={Locations}
         options={{headerShown: true}}
-      /> */}
+      />
 
-      {/* <Auth.Screen
+      <Auth.Screen
         name={Routes.AppTour}
         component={AppTour}
         options={{headerShown: false}}
-      /> */}
+      />
       <Auth.Screen
         name={Routes.FirstTimeLogin}
         component={FirstTimeLoginScreen}

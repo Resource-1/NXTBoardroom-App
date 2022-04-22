@@ -36,7 +36,7 @@ const styles = StyleSheet.create({
   },
   textstyle: {
     color: Color.$TEXT_BLUE,
-    opacity: 0.5,
+    opacity: 1,
     fontFamily: Font.$TUSSILAGOBOLD,
     fontSize: Font.$FONT_12,
     textTransform: 'uppercase',

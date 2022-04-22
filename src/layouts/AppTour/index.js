@@ -11,8 +11,7 @@ import PropTypes from 'prop-types';
 import {Color, Font} from '../../utils/theme';
 import {useTranslation} from 'react-i18next';
 import {screenHeight, screenWidth} from '../../utils/globals.js';
-// import CustomIcon from '../CustomIcon';
-
+import CustomIcon from '../../components/CustomIcon';
 import styles from './styles.js';
 
 const AppTour = ({navigation}) => {
@@ -29,13 +28,15 @@ const AppTour = ({navigation}) => {
     // </SafeAreaView>
 
     <SafeAreaView style={styles.container}>
-      <ScrollView style={styles.scrollView}>
+      <ScrollView
+        showsVerticalScrollIndicator={false}
+        style={styles.scrollView}>
         <View>
           <Text style={styles.text}>{t('APPTOURDETAILS')}</Text>
         </View>
       </ScrollView>
       <View>
-        {/* <CustomIcon name="icon-downArrow" style={styles.bottomIcon} /> */}
+        <CustomIcon name="downArrow" style={styles.bottomIcon} />
       </View>
     </SafeAreaView>
   );

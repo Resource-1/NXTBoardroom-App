@@ -16,13 +16,14 @@ HeaderTitle.propTypes = {
 
 const styles = StyleSheet.create({
   title: {
-    fontSize: Font.$FONT_14,
+    fontSize: Font.$FONT_13,
     fontFamily: Font.$TUSSILAGOBOLD,
     color: Color.$TEXT_BLACK,
     textTransform: 'uppercase',
     position: 'absolute',
     right: 0,
     top: 'auto',
+    lineHeight: 20,
   },
 });
 

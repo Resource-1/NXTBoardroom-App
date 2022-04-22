@@ -43,10 +43,12 @@ export const Font = {
   $TUSSILAGOREGULAR: 'Typodermic - TussilagoRg-Regular',
   $TUSSILAGOBOLD: 'Typodermic - TussilagoRg-Bold',
   $FREIGHTBIGPROBOOK: 'Freight Collection - FreightBig Pro Book',
+  $FREIGHTBIGPROMEDIUNM: 'Freight Collection - FreightBig Pro Medium',
 
   // Font Size
   $FONT_11: 11,
   $FONT_12: 12,
+  $FONT_13: 13,
   $FONT_14: 14,
   $FONT_16: 16,
   $FONT_18: 18,

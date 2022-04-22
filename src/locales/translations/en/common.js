@@ -22,7 +22,7 @@ const en = {
   Signin: 'Sign in',
   loggedSuccessfully: 'YOU HAVE SUCCESSFULLY LOGGED IN',
   setPassword: 'Your password has been set',
-  emailInvalid: 'please enter a valid email address',
+  emailInvalid: 'Please enter a valid email address',
   RESETPASSWORD: 'RESET PASSWORD',
   forgotpassword: 'forgot your password?',
   Enteremail: 'Enter your email address below',
@@ -31,8 +31,7 @@ const en = {
   cancel: 'cancel',
   BackToLogin: 'Back to login',
   Forgetpassword: 'Forget Password?',
-  EnterPassword:
-    'Incorrect password, please try again or click Forgot password',
+  EnterPassword: 'Please enter the password',
   RESPASSWORDTOAST: 'Password has been updated successfully. Please Login',
   APPTOURDETAILS:
     'We are a curated collective of disruptive thinkers and smart entrepreneurs. Fueled by exponential technologies it enables valuable relationships and creates synergies with the power to change everything.',

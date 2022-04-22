@@ -12,7 +12,7 @@ const styles = StyleSheet.create({
   //   fontfamily: Font.$FREIGHTBIGPROBOOK,
   //   lineHeight: 61,
   //   width: screenWidth,
-  //   height: screenHeight - 50,
+
   //   paddingTop: 50,
   // },
   // container: {
@@ -23,9 +23,11 @@ const styles = StyleSheet.create({
   // },
   container: {
     flex: 1,
-    // paddingTop: 20,
+    // paddingTop: ,
     // backgroundColor: Color.$BG_WARM_GREY,
-    backgroundColor: 'pink',
+    backgroundColor: '#EBE5E1',
+    paddingBottom: screenHeight - 710,
+    paddingTop: 100,
   },
   scrollView: {
     marginHorizontal: 20,
@@ -33,11 +35,16 @@ const styles = StyleSheet.create({
   text: {
     color: Color.$TEXT_BLACK,
     fontSize: Font.$FONT_48,
-    fontfamily: Font.$FREIGHTBIGPROBOOK,
+    fontFamily: Font.$FREIGHTBIGPROMEDIUNM,
   },
   bottomIcon: {
     position: 'absolute',
-    bottom: 0,
+    bottom: -50,
+    top: 20,
+    left: 163,
+    right: 163,
+    top: 'auto',
+    fontSize: 48,
   },
 });
 
